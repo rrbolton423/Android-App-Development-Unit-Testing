@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <array name="teams">
+        <item>Cubs</item>
+        <item>Cards</item>
+        <item>Brewers</item>
+        <item>Reds</item>
+        <item>Pirates</item>
+    </array>
+</resources>
