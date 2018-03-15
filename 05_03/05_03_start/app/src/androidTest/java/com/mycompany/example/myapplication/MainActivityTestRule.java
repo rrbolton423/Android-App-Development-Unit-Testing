@@ -16,7 +16,8 @@ public class MainActivityTestRule<A extends Activity> extends ActivityTestRule<A
 
     // overwritten the beforeActivityLaunched() method, so that I can inject an instance of
     // MockTeamCursor as the cursor in the TeamDatabase singleton before the Activity and test is
-    // created.    @Override
+    // created.
+    @Override
     protected void beforeActivityLaunched() {
 
         // Set the MockCursor on the Database during the Instrumented Test
